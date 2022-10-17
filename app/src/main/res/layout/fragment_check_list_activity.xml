@@ -19,7 +19,7 @@
         android:backgroundTint="@android:color/holo_green_light"
         android:gravity="center"
         android:onClick="abrirTerceiraTela"
-        android:text="Avançar"
+        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:minHeight="55dp"
-        android:text="Localização"
+        android:text="Location"
         app:layout_constraintStart_toStartOf="@+id/switchMagnetometro"
         app:layout_constraintTop_toBottomOf="@+id/switchMagnetometro" />
 
@@ -41,7 +41,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:minHeight="55dp"
-        android:text="Acelerômetro"
+        android:text="Accelerometer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:minHeight="55dp"
-        android:text="Giroscópio"
+        android:text="Gyroscope"
         app:layout_constraintStart_toStartOf="@+id/switchAcelerometro"
         app:layout_constraintTop_toBottomOf="@+id/switchAcelerometro" />
 
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:minHeight="55dp"
-        android:text="Magnetômetro"
+        android:text="Magnetometer"
         app:layout_constraintStart_toStartOf="@+id/switchGiroscopio"
         app:layout_constraintTop_toBottomOf="@+id/switchGiroscopio" />
 
